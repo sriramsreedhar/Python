@@ -1,0 +1,7 @@
+Why do we require __init__(self) in a class ?
+1) self as it suggests, refers to itself- the object which has called the method. That is, if you have N objects calling the method, then self.a will refer to a separate instance of the variable for each of the N objects. Imagine N copies of the variable a for each object
+
+
+2)__init__ is what is called as a constructor in other OOP languages such as C++/Java. The basic idea is that it is a special method which is automatically called when an object of that Class is created.
+
+3) Basically self is a reference (kind of like a pointer, but self is a special reference which you can't assign to) to an object, and __init__ is a function which is called to initialize the object - that is, set the values of variables etc. - just after memory is allocated for it.
