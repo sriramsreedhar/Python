@@ -1,0 +1,11 @@
+
+Table 1 - Boolean operators
+Expression 	Function
+< 	less than
+<= 	less that or equal to
+> 	greater than
+>= 	greater than or equal to
+!= 	not equal to
+<> 	not equal to (alternate)
+== 	equal to
+
