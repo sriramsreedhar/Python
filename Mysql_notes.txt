@@ -1,0 +1,15 @@
+mysql> CREATE TABLE Writers(Id INT PRIMARY KEY AUTO_INCREMENT, \
+    ->                 Name VARCHAR(25))
+    -> 
+    -> 
+    -> ;
+Query OK, 0 rows affected (0.20 sec)
+
+mysql> INSERT INTO Writers(Name) VALUES('Sriram Sreedhar')
+    -> ;
+Query OK, 1 row affected (0.12 sec)
+
+mysql> INSERT INTO Writers(Name) VALUES('Harini Sriram')
+    -> ;
+Query OK, 1 row affected (0.00 sec)
+
