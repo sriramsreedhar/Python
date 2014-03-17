@@ -37,3 +37,12 @@ also you could try this in interpreter
 >>> math.__file__
 '/usr/lib64/python2.6/lib-dynload/mathmodule.so'
 
+8) Joining 2 lists to make a dictionary 
+
+>>> title = ['krishna','madhava','govinda']
+>>> poet = ['hare', 'hare hare', 'hari hari']
+
+>>> book = dict(zip(title,poet))
+>>> book
+{'krishna': 'hare', 'govinda': 'hari hari', 'madhava': 'hare hare'}
+
