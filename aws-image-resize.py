@@ -43,3 +43,16 @@ for key in bucket.list(prefix='incoming/'):
 # Delete the temp dir
 shutil.rmtree(tmpdir)
       
+''' 
+This script has a few dependencies, which can be installed on Ubuntu systems as follows:
+     sudo apt-get install gcc python-dev python-pip
+     sudo pip install PIL
+     sudo pip install --upgrade boto
+
+ubuntu@ip-10-227-45-65:~$ python aws-image-resize.py your-bucket-name
+Resizing sm.ora.logo.plain.gif
+Creating sm.ora.logo.plain.250x250.gif
+Creating sm.ora.logo.plain.125x125.gif
+ubuntu@ip-10-227-45-65:~$
+
+'''
